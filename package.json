@@ -1,0 +1,11 @@
+{
+  "name": "cryotracker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "python3 tests/build_harness.py && node tests/qa.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.48.2"
+  }
+}

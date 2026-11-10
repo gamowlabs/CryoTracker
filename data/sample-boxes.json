@@ -1,0 +1,5811 @@
+{
+ "note": "Made-up example data for tests and demos. Not a real inventory.",
+ "boxes": {
+  "R1-B1": {
+   "rack": 1,
+   "box": 1,
+   "slots": {
+    "1": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "06/02/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "2": {
+     "n": "K562",
+     "p": "P19",
+     "d": "11/02/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "3": {
+     "n": "K562",
+     "p": "P19",
+     "d": "11/02/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "4": {
+     "n": "K562",
+     "p": "P19",
+     "d": "11/02/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "5": {
+     "n": "K562",
+     "p": "P19",
+     "d": "11/02/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "6": {
+     "n": "K562",
+     "p": "P19",
+     "d": "11/02/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "8": {
+     "n": "U2OS",
+     "p": "P4",
+     "d": "02/14/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "9": {
+     "n": "U2OS",
+     "p": "P4",
+     "d": "02/14/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "10": {
+     "n": "U2OS",
+     "p": "P4",
+     "d": "02/14/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "11": {
+     "n": "HEK293T GFP reporter",
+     "p": "P20",
+     "d": "10/04/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "12": {
+     "n": "HEK293T GFP reporter",
+     "p": "P20",
+     "d": "10/04/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "13": {
+     "n": "HEK293T GFP reporter",
+     "p": "P20",
+     "d": "10/04/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "14": {
+     "n": "HeLa Cas9",
+     "p": "P11",
+     "d": "04/02/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "15": {
+     "n": "HeLa Cas9",
+     "p": "P11",
+     "d": "04/02/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "16": {
+     "n": "HeLa Cas9",
+     "p": "P11",
+     "d": "04/02/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "17": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "05/18/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "18": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "05/18/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "19": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "05/18/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "20": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "05/18/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "21": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "05/18/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "22": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "05/18/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "23": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "05/18/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "24": {
+     "n": "U2OS",
+     "p": "P20",
+     "d": "02/18/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "25": {
+     "n": "U2OS",
+     "p": "P20",
+     "d": "02/18/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "26": {
+     "n": "U2OS",
+     "p": "P20",
+     "d": "02/18/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "27": {
+     "n": "U2OS",
+     "p": "P20",
+     "d": "02/18/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "28": {
+     "n": "U2OS",
+     "p": "P20",
+     "d": "02/18/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "31": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/15/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "32": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/15/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "33": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/15/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "34": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/15/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "35": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/15/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "36": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/15/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "37": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/15/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "38": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/15/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "39": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/15/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "40": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "41": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "42": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "43": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "44": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "45": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "46": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "47": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "48": {
+     "n": "HepG2",
+     "p": "P5",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "49": {
+     "n": "HepG2",
+     "p": "P5",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "50": {
+     "n": "HepG2",
+     "p": "P5",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "51": {
+     "n": "HepG2",
+     "p": "P5",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "52": {
+     "n": "HepG2",
+     "p": "P5",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "53": {
+     "n": "HepG2",
+     "p": "P5",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "54": {
+     "n": "HepG2",
+     "p": "P5",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "55": {
+     "n": "HepG2",
+     "p": "P5",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "56": {
+     "n": "Jurkat",
+     "p": "P15",
+     "d": "06/05/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "57": {
+     "n": "Jurkat",
+     "p": "P15",
+     "d": "06/05/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "58": {
+     "n": "Jurkat",
+     "p": "P15",
+     "d": "06/05/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "59": {
+     "n": "Jurkat",
+     "p": "P15",
+     "d": "06/05/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "60": {
+     "n": "Jurkat",
+     "p": "P15",
+     "d": "06/05/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "61": {
+     "n": "Jurkat",
+     "p": "P15",
+     "d": "06/05/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "62": {
+     "n": "Jurkat",
+     "p": "P15",
+     "d": "06/05/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "63": {
+     "n": "Jurkat",
+     "p": "P15",
+     "d": "06/05/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "64": {
+     "n": "Jurkat",
+     "p": "P15",
+     "d": "06/05/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "66": {
+     "n": "HepG2",
+     "p": "P20",
+     "d": "12/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "67": {
+     "n": "HepG2",
+     "p": "P20",
+     "d": "12/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "68": {
+     "n": "HepG2",
+     "p": "P20",
+     "d": "12/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "69": {
+     "n": "HepG2",
+     "p": "P20",
+     "d": "12/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "70": {
+     "n": "HepG2",
+     "p": "P20",
+     "d": "12/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "71": {
+     "n": "A549",
+     "p": "P4",
+     "d": "02/09/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "72": {
+     "n": "A549",
+     "p": "P4",
+     "d": "02/09/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "73": {
+     "n": "A549",
+     "p": "P4",
+     "d": "02/09/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "74": {
+     "n": "A549",
+     "p": "P4",
+     "d": "02/09/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "75": {
+     "n": "A549",
+     "p": "P4",
+     "d": "02/09/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "76": {
+     "n": "A549",
+     "p": "P4",
+     "d": "02/09/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "77": {
+     "n": "A549",
+     "p": "P4",
+     "d": "02/09/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "78": {
+     "n": "A549",
+     "p": "P4",
+     "d": "02/09/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "79": {
+     "n": "A549",
+     "p": "P4",
+     "d": "02/09/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    }
+   }
+  },
+  "R1-B2": {
+   "rack": 1,
+   "box": 2,
+   "slots": {
+    "1": {
+     "n": "A549 KO clone 4",
+     "p": "P2",
+     "d": "12/13/2024",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "2": {
+     "n": "A549 KO clone 4",
+     "p": "P2",
+     "d": "12/13/2024",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "3": {
+     "n": "A549 KO clone 4",
+     "p": "P2",
+     "d": "12/13/2024",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "4": {
+     "n": "A549 KO clone 4",
+     "p": "P2",
+     "d": "12/13/2024",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "5": {
+     "n": "A549 KO clone 4",
+     "p": "P2",
+     "d": "12/13/2024",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "6": {
+     "n": "THP-1",
+     "p": "P3",
+     "d": "10/04/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "7": {
+     "n": "THP-1",
+     "p": "P3",
+     "d": "10/04/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "8": {
+     "n": "THP-1",
+     "p": "P3",
+     "d": "10/04/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "9": {
+     "n": "THP-1",
+     "p": "P3",
+     "d": "10/04/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "10": {
+     "n": "PC-3",
+     "p": "P14",
+     "d": "12/08/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "11": {
+     "n": "PC-3",
+     "p": "P14",
+     "d": "12/08/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "12": {
+     "n": "PC-3",
+     "p": "P14",
+     "d": "12/08/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "13": {
+     "n": "PC-3",
+     "p": "P14",
+     "d": "12/08/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "14": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P19",
+     "d": "03/15/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "15": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P19",
+     "d": "03/15/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "16": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P19",
+     "d": "03/15/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "17": {
+     "n": "K562",
+     "p": "P15",
+     "d": "07/28/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "18": {
+     "n": "K562",
+     "p": "P15",
+     "d": "07/28/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "19": {
+     "n": "K562",
+     "p": "P15",
+     "d": "07/28/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "20": {
+     "n": "K562",
+     "p": "P15",
+     "d": "07/28/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "21": {
+     "n": "K562",
+     "p": "P15",
+     "d": "07/28/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "22": {
+     "n": "K562",
+     "p": "P15",
+     "d": "07/28/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "23": {
+     "n": "K562",
+     "p": "P15",
+     "d": "07/28/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "24": {
+     "n": "K562",
+     "p": "P15",
+     "d": "07/28/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "25": {
+     "n": "K562",
+     "p": "P15",
+     "d": "07/28/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "26": {
+     "n": "HeLa Cas9",
+     "p": "P6",
+     "d": "03/03/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "27": {
+     "n": "HeLa Cas9",
+     "p": "P6",
+     "d": "03/03/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "28": {
+     "n": "HeLa Cas9",
+     "p": "P6",
+     "d": "03/03/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "29": {
+     "n": "HeLa Cas9",
+     "p": "P6",
+     "d": "03/03/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "30": {
+     "n": "HCT116",
+     "p": "P10",
+     "d": "08/27/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "31": {
+     "n": "HCT116",
+     "p": "P10",
+     "d": "08/27/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "32": {
+     "n": "HCT116",
+     "p": "P10",
+     "d": "08/27/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "33": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "34": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "35": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "36": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "37": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "38": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "39": {
+     "n": "HEK293T",
+     "p": "P14",
+     "d": "11/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "40": {
+     "n": "HEK293T",
+     "p": "P14",
+     "d": "11/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "41": {
+     "n": "HEK293T",
+     "p": "P14",
+     "d": "11/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "42": {
+     "n": "HEK293T",
+     "p": "P14",
+     "d": "11/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "43": {
+     "n": "HEK293T",
+     "p": "P14",
+     "d": "11/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "44": {
+     "n": "HEK293T",
+     "p": "P14",
+     "d": "11/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "45": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "11/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "46": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "11/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "47": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "11/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "48": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "11/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "49": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "11/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "50": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "11/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "53": {
+     "n": "MCF7",
+     "p": "P2",
+     "d": "10/02/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "54": {
+     "n": "MCF7",
+     "p": "P2",
+     "d": "10/02/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "55": {
+     "n": "MCF7",
+     "p": "P2",
+     "d": "10/02/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "56": {
+     "n": "MCF7",
+     "p": "P2",
+     "d": "10/02/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "57": {
+     "n": "MCF7",
+     "p": "P2",
+     "d": "10/02/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "58": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "10/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "59": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "10/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "60": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "10/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "61": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "10/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "62": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "10/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "63": {
+     "n": "K562",
+     "p": "P17",
+     "d": "05/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "64": {
+     "n": "K562",
+     "p": "P17",
+     "d": "05/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "65": {
+     "n": "K562",
+     "p": "P17",
+     "d": "05/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "66": {
+     "n": "K562",
+     "p": "P17",
+     "d": "05/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "67": {
+     "n": "K562",
+     "p": "P17",
+     "d": "05/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "68": {
+     "n": "K562",
+     "p": "P17",
+     "d": "05/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "69": {
+     "n": "K562",
+     "p": "P17",
+     "d": "05/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "70": {
+     "n": "K562",
+     "p": "P17",
+     "d": "05/12/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "75": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "76": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "77": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "78": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "79": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "80": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "08/10/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    }
+   }
+  },
+  "R1-B3": {
+   "rack": 1,
+   "box": 3,
+   "slots": {
+    "1": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P8",
+     "d": "12/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "2": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P8",
+     "d": "12/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "3": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P8",
+     "d": "12/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "4": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P8",
+     "d": "12/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "5": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P8",
+     "d": "12/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "6": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P8",
+     "d": "12/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "7": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P8",
+     "d": "12/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "8": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P8",
+     "d": "12/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "9": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P8",
+     "d": "12/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "10": {
+     "n": "THP-1",
+     "p": "P18",
+     "d": "12/18/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "11": {
+     "n": "THP-1",
+     "p": "P18",
+     "d": "12/18/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "12": {
+     "n": "THP-1",
+     "p": "P18",
+     "d": "12/18/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "13": {
+     "n": "THP-1",
+     "p": "P18",
+     "d": "12/18/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "14": {
+     "n": "A549",
+     "p": "P7",
+     "d": "05/17/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "15": {
+     "n": "A549",
+     "p": "P7",
+     "d": "05/17/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "16": {
+     "n": "A549",
+     "p": "P7",
+     "d": "05/17/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "17": {
+     "n": "A549",
+     "p": "P7",
+     "d": "05/17/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "18": {
+     "n": "A549",
+     "p": "P7",
+     "d": "05/17/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "19": {
+     "n": "A549",
+     "p": "P7",
+     "d": "05/17/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "20": {
+     "n": "A549",
+     "p": "P7",
+     "d": "05/17/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "21": {
+     "n": "A549",
+     "p": "P7",
+     "d": "05/17/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "22": {
+     "n": "HCT116",
+     "p": "P9",
+     "d": "09/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "23": {
+     "n": "HCT116",
+     "p": "P9",
+     "d": "09/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "24": {
+     "n": "HCT116",
+     "p": "P9",
+     "d": "09/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "25": {
+     "n": "HCT116",
+     "p": "P9",
+     "d": "09/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "26": {
+     "n": "HCT116",
+     "p": "P9",
+     "d": "09/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "27": {
+     "n": "HCT116",
+     "p": "P9",
+     "d": "09/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "28": {
+     "n": "HCT116",
+     "p": "P9",
+     "d": "09/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "29": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "30": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "31": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "32": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "33": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "34": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "35": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "36": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "37": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "38": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P10",
+     "d": "12/01/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "39": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P10",
+     "d": "12/01/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "40": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P10",
+     "d": "12/01/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "41": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P10",
+     "d": "12/01/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "42": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P10",
+     "d": "12/01/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "43": {
+     "n": "U2OS",
+     "p": "P13",
+     "d": "10/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "44": {
+     "n": "U2OS",
+     "p": "P13",
+     "d": "10/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "45": {
+     "n": "U2OS",
+     "p": "P13",
+     "d": "10/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "46": {
+     "n": "U2OS",
+     "p": "P13",
+     "d": "10/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "47": {
+     "n": "U2OS",
+     "p": "P13",
+     "d": "10/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "48": {
+     "n": "U2OS",
+     "p": "P13",
+     "d": "10/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "49": {
+     "n": "U2OS",
+     "p": "P13",
+     "d": "10/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "50": {
+     "n": "U2OS",
+     "p": "P13",
+     "d": "10/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "51": {
+     "n": "THP-1",
+     "p": "P17",
+     "d": "04/04/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "52": {
+     "n": "THP-1",
+     "p": "P17",
+     "d": "04/04/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "53": {
+     "n": "THP-1",
+     "p": "P17",
+     "d": "04/04/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "54": {
+     "n": "U2OS",
+     "p": "P17",
+     "d": "10/20/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "55": {
+     "n": "U2OS",
+     "p": "P17",
+     "d": "10/20/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "56": {
+     "n": "U2OS",
+     "p": "P17",
+     "d": "10/20/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "57": {
+     "n": "U2OS",
+     "p": "P17",
+     "d": "10/20/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "58": {
+     "n": "U2OS",
+     "p": "P17",
+     "d": "10/20/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "59": {
+     "n": "U2OS",
+     "p": "P17",
+     "d": "10/20/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "60": {
+     "n": "THP-1",
+     "p": "P14",
+     "d": "11/03/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "61": {
+     "n": "THP-1",
+     "p": "P14",
+     "d": "11/03/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "62": {
+     "n": "THP-1",
+     "p": "P14",
+     "d": "11/03/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "63": {
+     "n": "THP-1",
+     "p": "P14",
+     "d": "11/03/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "64": {
+     "n": "THP-1",
+     "p": "P14",
+     "d": "11/03/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "65": {
+     "n": "THP-1",
+     "p": "P14",
+     "d": "11/03/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "66": {
+     "n": "THP-1",
+     "p": "P14",
+     "d": "11/03/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "67": {
+     "n": "THP-1",
+     "p": "P14",
+     "d": "11/03/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "68": {
+     "n": "THP-1",
+     "p": "P14",
+     "d": "11/03/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "69": {
+     "n": "U2OS",
+     "p": "P4",
+     "d": "03/14/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "70": {
+     "n": "U2OS",
+     "p": "P4",
+     "d": "03/14/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "71": {
+     "n": "U2OS",
+     "p": "P4",
+     "d": "03/14/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "72": {
+     "n": "U2OS",
+     "p": "P4",
+     "d": "03/14/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "73": {
+     "n": "U2OS",
+     "p": "P4",
+     "d": "03/14/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "74": {
+     "n": "U2OS",
+     "p": "P4",
+     "d": "03/14/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "75": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "07/24/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "76": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "07/24/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "77": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "07/24/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "78": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "07/24/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "79": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "07/24/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "80": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "07/24/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    }
+   }
+  },
+  "R1-B4": {
+   "rack": 1,
+   "box": 4,
+   "slots": {
+    "5": {
+     "n": "K562",
+     "p": "P6",
+     "d": "10/16/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "6": {
+     "n": "K562",
+     "p": "P6",
+     "d": "10/16/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "7": {
+     "n": "K562",
+     "p": "P6",
+     "d": "10/16/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "8": {
+     "n": "K562",
+     "p": "P6",
+     "d": "10/16/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "9": {
+     "n": "K562",
+     "p": "P6",
+     "d": "10/16/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "10": {
+     "n": "K562",
+     "p": "P6",
+     "d": "10/16/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "11": {
+     "n": "K562",
+     "p": "P6",
+     "d": "10/16/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "12": {
+     "n": "K562",
+     "p": "P18",
+     "d": "01/26/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "13": {
+     "n": "K562",
+     "p": "P18",
+     "d": "01/26/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "14": {
+     "n": "K562",
+     "p": "P18",
+     "d": "01/26/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "15": {
+     "n": "K562",
+     "p": "P2",
+     "d": "04/27/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "16": {
+     "n": "K562",
+     "p": "P2",
+     "d": "04/27/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "17": {
+     "n": "K562",
+     "p": "P2",
+     "d": "04/27/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "18": {
+     "n": "K562",
+     "p": "P2",
+     "d": "04/27/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "19": {
+     "n": "K562",
+     "p": "P2",
+     "d": "04/27/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "20": {
+     "n": "K562",
+     "p": "P2",
+     "d": "04/27/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "21": {
+     "n": "PC-3",
+     "p": "P10",
+     "d": "04/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "22": {
+     "n": "PC-3",
+     "p": "P10",
+     "d": "04/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "23": {
+     "n": "PC-3",
+     "p": "P10",
+     "d": "04/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "24": {
+     "n": "PC-3",
+     "p": "P10",
+     "d": "04/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "25": {
+     "n": "PC-3",
+     "p": "P10",
+     "d": "04/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "26": {
+     "n": "PC-3",
+     "p": "P10",
+     "d": "04/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "27": {
+     "n": "PC-3",
+     "p": "P10",
+     "d": "04/25/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "28": {
+     "n": "K562",
+     "p": "P20",
+     "d": "12/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "29": {
+     "n": "K562",
+     "p": "P20",
+     "d": "12/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "30": {
+     "n": "K562",
+     "p": "P20",
+     "d": "12/12/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "31": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "09/05/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "32": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "09/05/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "33": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "09/05/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "34": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "09/05/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "35": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "09/05/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "36": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "09/05/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "37": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "09/05/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "38": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "09/05/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "39": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "09/05/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "40": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "03/20/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "41": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "03/20/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "42": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "03/20/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "43": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "03/20/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "44": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "03/20/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "45": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "03/20/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "46": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "03/20/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "47": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "03/20/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "48": {
+     "n": "A549 KO clone 4",
+     "p": "P6",
+     "d": "03/20/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "53": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "01/11/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "54": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "01/11/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "55": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "01/11/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "56": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "01/11/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "57": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "01/11/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "58": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "01/11/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "59": {
+     "n": "MCF7",
+     "p": "P5",
+     "d": "01/11/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "60": {
+     "n": "HEK293T",
+     "p": "P5",
+     "d": "04/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "61": {
+     "n": "HEK293T",
+     "p": "P5",
+     "d": "04/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "62": {
+     "n": "HEK293T",
+     "p": "P5",
+     "d": "04/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "63": {
+     "n": "HEK293T",
+     "p": "P5",
+     "d": "04/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "64": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "02/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "65": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "02/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "66": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "02/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "67": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "02/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "68": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "02/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "69": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "02/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "70": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "02/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "71": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "02/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "72": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "02/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "73": {
+     "n": "U2OS",
+     "p": "P18",
+     "d": "05/15/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "74": {
+     "n": "U2OS",
+     "p": "P18",
+     "d": "05/15/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "75": {
+     "n": "U2OS",
+     "p": "P18",
+     "d": "05/15/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "76": {
+     "n": "U2OS",
+     "p": "P18",
+     "d": "05/15/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "77": {
+     "n": "U2OS",
+     "p": "P18",
+     "d": "05/15/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "78": {
+     "n": "U2OS",
+     "p": "P18",
+     "d": "05/15/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "79": {
+     "n": "U2OS",
+     "p": "P18",
+     "d": "05/15/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "80": {
+     "n": "U2OS",
+     "p": "P18",
+     "d": "05/15/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "81": {
+     "n": "SW480",
+     "p": "P6",
+     "d": "04/27/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "3": {
+     "n": "A549",
+     "p": "P6",
+     "d": "03/14/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    }
+   }
+  },
+  "R2-B1": {
+   "rack": 2,
+   "box": 1,
+   "slots": {
+    "1": {
+     "n": "HeLa Cas9",
+     "p": "P15",
+     "d": "06/03/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "2": {
+     "n": "HeLa Cas9",
+     "p": "P15",
+     "d": "06/03/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "3": {
+     "n": "HeLa Cas9",
+     "p": "P15",
+     "d": "06/03/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "4": {
+     "n": "HeLa Cas9",
+     "p": "P15",
+     "d": "06/03/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "5": {
+     "n": "HeLa Cas9",
+     "p": "P15",
+     "d": "06/03/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "6": {
+     "n": "HeLa Cas9",
+     "p": "P15",
+     "d": "06/03/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "10": {
+     "n": "K562",
+     "p": "P6",
+     "d": "11/22/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "11": {
+     "n": "K562",
+     "p": "P6",
+     "d": "11/22/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "12": {
+     "n": "K562",
+     "p": "P6",
+     "d": "11/22/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "13": {
+     "n": "K562",
+     "p": "P6",
+     "d": "11/22/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "14": {
+     "n": "K562",
+     "p": "P6",
+     "d": "11/22/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "15": {
+     "n": "K562",
+     "p": "P6",
+     "d": "11/22/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "16": {
+     "n": "K562",
+     "p": "P6",
+     "d": "11/22/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "17": {
+     "n": "K562",
+     "p": "P6",
+     "d": "11/22/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "18": {
+     "n": "K562",
+     "p": "P14",
+     "d": "04/24/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "19": {
+     "n": "K562",
+     "p": "P14",
+     "d": "04/24/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "20": {
+     "n": "K562",
+     "p": "P14",
+     "d": "04/24/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "21": {
+     "n": "K562",
+     "p": "P14",
+     "d": "04/24/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "22": {
+     "n": "K562",
+     "p": "P14",
+     "d": "04/24/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "23": {
+     "n": "K562",
+     "p": "P14",
+     "d": "04/24/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "24": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/06/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "25": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/06/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "26": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/06/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "27": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/06/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "28": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/06/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "29": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/06/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "30": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/06/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "31": {
+     "n": "Jurkat",
+     "p": "P18",
+     "d": "04/06/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "32": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/11/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "33": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/11/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "34": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/11/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "35": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "06/11/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "40": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "06/17/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "41": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "06/17/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "42": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "06/17/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "43": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "06/17/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "44": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "06/17/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "45": {
+     "n": "HeLa",
+     "p": "P18",
+     "d": "06/17/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "46": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "04/04/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "47": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "04/04/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "48": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "04/04/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "49": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "04/04/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "50": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "04/04/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "51": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "04/04/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "52": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "04/04/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "53": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "04/04/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "54": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "04/04/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "55": {
+     "n": "Jurkat",
+     "p": "P10",
+     "d": "03/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "56": {
+     "n": "Jurkat",
+     "p": "P10",
+     "d": "03/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "57": {
+     "n": "Jurkat",
+     "p": "P10",
+     "d": "03/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "58": {
+     "n": "Jurkat",
+     "p": "P10",
+     "d": "03/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "59": {
+     "n": "Jurkat",
+     "p": "P10",
+     "d": "03/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "60": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P3",
+     "d": "06/03/2023",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "61": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P3",
+     "d": "06/03/2023",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "62": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P3",
+     "d": "06/03/2023",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "63": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P3",
+     "d": "06/03/2023",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "64": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P3",
+     "d": "06/03/2023",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "65": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P3",
+     "d": "06/03/2023",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "66": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P3",
+     "d": "06/03/2023",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "67": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P3",
+     "d": "06/03/2023",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "68": {
+     "n": "Jurkat",
+     "p": "P4",
+     "d": "02/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "69": {
+     "n": "Jurkat",
+     "p": "P4",
+     "d": "02/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "70": {
+     "n": "Jurkat",
+     "p": "P4",
+     "d": "02/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "71": {
+     "n": "Jurkat",
+     "p": "P4",
+     "d": "02/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "72": {
+     "n": "Jurkat",
+     "p": "P4",
+     "d": "02/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "73": {
+     "n": "Jurkat",
+     "p": "P4",
+     "d": "02/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "74": {
+     "n": "A549",
+     "p": "P5",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "75": {
+     "n": "A549",
+     "p": "P5",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "76": {
+     "n": "A549",
+     "p": "P5",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "77": {
+     "n": "A549",
+     "p": "P5",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "78": {
+     "n": "A549",
+     "p": "P5",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "79": {
+     "n": "A549",
+     "p": "P5",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "80": {
+     "n": "A549",
+     "p": "P5",
+     "d": "04/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "81": {
+     "n": "HepG2",
+     "p": "P3",
+     "d": "07/09/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    }
+   }
+  },
+  "R2-B2": {
+   "rack": 2,
+   "box": 2,
+   "slots": {
+    "1": {
+     "n": "HCT116",
+     "p": "P7",
+     "d": "03/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "2": {
+     "n": "HCT116",
+     "p": "P7",
+     "d": "03/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "3": {
+     "n": "HCT116",
+     "p": "P7",
+     "d": "03/09/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "4": {
+     "n": "PC-3",
+     "p": "P11",
+     "d": "05/17/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "5": {
+     "n": "PC-3",
+     "p": "P11",
+     "d": "05/17/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "6": {
+     "n": "PC-3",
+     "p": "P11",
+     "d": "05/17/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "7": {
+     "n": "PC-3",
+     "p": "P11",
+     "d": "05/17/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "8": {
+     "n": "PC-3",
+     "p": "P11",
+     "d": "05/17/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "9": {
+     "n": "PC-3",
+     "p": "P11",
+     "d": "05/17/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "10": {
+     "n": "PC-3",
+     "p": "P11",
+     "d": "05/17/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "11": {
+     "n": "PC-3",
+     "p": "P11",
+     "d": "05/17/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "12": {
+     "n": "Jurkat",
+     "p": "P10",
+     "d": "06/26/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "13": {
+     "n": "Jurkat",
+     "p": "P10",
+     "d": "06/26/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "14": {
+     "n": "Jurkat",
+     "p": "P10",
+     "d": "06/26/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "15": {
+     "n": "Jurkat",
+     "p": "P10",
+     "d": "06/26/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "16": {
+     "n": "Jurkat",
+     "p": "P10",
+     "d": "06/26/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "18": {
+     "n": "U2OS",
+     "p": "P5",
+     "d": "08/08/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "19": {
+     "n": "U2OS",
+     "p": "P5",
+     "d": "08/08/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "20": {
+     "n": "U2OS",
+     "p": "P5",
+     "d": "08/08/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "21": {
+     "n": "U2OS",
+     "p": "P5",
+     "d": "08/08/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "22": {
+     "n": "U2OS",
+     "p": "P5",
+     "d": "08/08/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "23": {
+     "n": "U2OS",
+     "p": "P5",
+     "d": "08/08/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "24": {
+     "n": "U2OS",
+     "p": "P5",
+     "d": "08/08/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "25": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "08/18/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "26": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "08/18/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "27": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "08/18/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "28": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "08/18/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "29": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "08/18/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "30": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "08/18/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "31": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "08/18/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "32": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "08/18/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "33": {
+     "n": "U2OS",
+     "p": "P14",
+     "d": "06/07/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "34": {
+     "n": "U2OS",
+     "p": "P14",
+     "d": "06/07/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "35": {
+     "n": "U2OS",
+     "p": "P14",
+     "d": "06/07/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "36": {
+     "n": "U2OS",
+     "p": "P14",
+     "d": "06/07/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "37": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "03/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "38": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "03/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "39": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "03/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "40": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "03/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "41": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "03/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "42": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "03/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "43": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "03/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "44": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "03/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "45": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "03/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "46": {
+     "n": "HEK293T",
+     "p": "P18",
+     "d": "11/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "47": {
+     "n": "HEK293T",
+     "p": "P18",
+     "d": "11/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "48": {
+     "n": "HEK293T",
+     "p": "P18",
+     "d": "11/27/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "49": {
+     "n": "PC-3",
+     "p": "P3",
+     "d": "04/23/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "50": {
+     "n": "PC-3",
+     "p": "P3",
+     "d": "04/23/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "51": {
+     "n": "PC-3",
+     "p": "P3",
+     "d": "04/23/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "52": {
+     "n": "PC-3",
+     "p": "P3",
+     "d": "04/23/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "53": {
+     "n": "PC-3",
+     "p": "P3",
+     "d": "04/23/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "54": {
+     "n": "PC-3",
+     "p": "P3",
+     "d": "04/23/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "55": {
+     "n": "PC-3",
+     "p": "P3",
+     "d": "04/23/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "56": {
+     "n": "Jurkat",
+     "p": "P13",
+     "d": "08/01/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "57": {
+     "n": "Jurkat",
+     "p": "P13",
+     "d": "08/01/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "58": {
+     "n": "Jurkat",
+     "p": "P13",
+     "d": "08/01/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "59": {
+     "n": "Jurkat",
+     "p": "P13",
+     "d": "08/01/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "60": {
+     "n": "Jurkat",
+     "p": "P13",
+     "d": "08/01/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "61": {
+     "n": "HepG2",
+     "p": "P13",
+     "d": "01/10/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "62": {
+     "n": "HepG2",
+     "p": "P13",
+     "d": "01/10/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "63": {
+     "n": "HepG2",
+     "p": "P13",
+     "d": "01/10/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "64": {
+     "n": "HepG2",
+     "p": "P13",
+     "d": "01/10/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "65": {
+     "n": "HepG2",
+     "p": "P18",
+     "d": "02/16/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "66": {
+     "n": "HepG2",
+     "p": "P18",
+     "d": "02/16/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "67": {
+     "n": "HepG2",
+     "p": "P18",
+     "d": "02/16/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "68": {
+     "n": "HepG2",
+     "p": "P18",
+     "d": "02/16/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "69": {
+     "n": "HepG2",
+     "p": "P18",
+     "d": "02/16/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "70": {
+     "n": "HepG2",
+     "p": "P18",
+     "d": "02/16/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "71": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "01/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "72": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "01/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "73": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "01/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "74": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "01/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "75": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "01/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "76": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "01/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "77": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "01/03/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "79": {
+     "n": "PC-3",
+     "p": "P20",
+     "d": "11/08/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "80": {
+     "n": "PC-3",
+     "p": "P20",
+     "d": "11/08/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "81": {
+     "n": "PC-3",
+     "p": "P20",
+     "d": "11/08/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    }
+   }
+  },
+  "R2-B3": {
+   "rack": 2,
+   "box": 3,
+   "slots": {
+    "1": {
+     "n": "K562",
+     "p": "P12",
+     "d": "12/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "2": {
+     "n": "K562",
+     "p": "P12",
+     "d": "12/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "3": {
+     "n": "K562",
+     "p": "P12",
+     "d": "12/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "4": {
+     "n": "K562",
+     "p": "P12",
+     "d": "12/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "5": {
+     "n": "K562",
+     "p": "P12",
+     "d": "12/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "6": {
+     "n": "K562",
+     "p": "P12",
+     "d": "12/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "7": {
+     "n": "K562",
+     "p": "P12",
+     "d": "12/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "8": {
+     "n": "K562",
+     "p": "P12",
+     "d": "12/26/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "9": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P3",
+     "d": "05/24/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "10": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P3",
+     "d": "05/24/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "11": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P3",
+     "d": "05/24/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "12": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P3",
+     "d": "05/24/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "13": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "12/26/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "14": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "12/26/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "15": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "12/26/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "16": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "12/26/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "17": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "12/26/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "18": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "12/26/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "19": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "12/26/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "20": {
+     "n": "HEK293T GFP reporter",
+     "p": "P18",
+     "d": "12/26/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "21": {
+     "n": "HeLa",
+     "p": "P4",
+     "d": "11/19/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "22": {
+     "n": "HeLa",
+     "p": "P4",
+     "d": "11/19/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "23": {
+     "n": "HeLa",
+     "p": "P4",
+     "d": "11/19/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "24": {
+     "n": "HeLa",
+     "p": "P4",
+     "d": "11/19/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "25": {
+     "n": "HeLa",
+     "p": "P4",
+     "d": "11/19/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "26": {
+     "n": "HeLa",
+     "p": "P4",
+     "d": "11/19/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "27": {
+     "n": "HeLa",
+     "p": "P4",
+     "d": "11/19/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "28": {
+     "n": "HeLa",
+     "p": "P4",
+     "d": "11/19/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "29": {
+     "n": "HeLa",
+     "p": "P4",
+     "d": "11/19/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "32": {
+     "n": "MCF7",
+     "p": "P2",
+     "d": "08/18/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "33": {
+     "n": "MCF7",
+     "p": "P2",
+     "d": "08/18/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "34": {
+     "n": "MCF7",
+     "p": "P2",
+     "d": "08/18/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "35": {
+     "n": "MCF7",
+     "p": "P2",
+     "d": "08/18/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "36": {
+     "n": "MCF7",
+     "p": "P2",
+     "d": "08/18/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "37": {
+     "n": "MCF7",
+     "p": "P2",
+     "d": "08/18/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "38": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "05/01/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "39": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "05/01/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "40": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "05/01/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "41": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "05/01/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "42": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "05/01/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "43": {
+     "n": "HCT116",
+     "p": "P4",
+     "d": "05/01/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "44": {
+     "n": "A549",
+     "p": "P10",
+     "d": "09/03/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "45": {
+     "n": "A549",
+     "p": "P10",
+     "d": "09/03/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "46": {
+     "n": "A549",
+     "p": "P10",
+     "d": "09/03/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "47": {
+     "n": "A549",
+     "p": "P10",
+     "d": "09/03/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "48": {
+     "n": "A549",
+     "p": "P10",
+     "d": "09/03/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "49": {
+     "n": "A549",
+     "p": "P10",
+     "d": "09/03/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "50": {
+     "n": "A549",
+     "p": "P10",
+     "d": "09/03/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "51": {
+     "n": "A549",
+     "p": "P10",
+     "d": "09/03/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "52": {
+     "n": "SW480",
+     "p": "P9",
+     "d": "12/25/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "53": {
+     "n": "SW480",
+     "p": "P9",
+     "d": "12/25/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "54": {
+     "n": "SW480",
+     "p": "P9",
+     "d": "12/25/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "55": {
+     "n": "SW480",
+     "p": "P9",
+     "d": "12/25/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "56": {
+     "n": "A549 KO clone 4",
+     "p": "P11",
+     "d": "07/03/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "57": {
+     "n": "A549 KO clone 4",
+     "p": "P11",
+     "d": "07/03/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "58": {
+     "n": "A549 KO clone 4",
+     "p": "P11",
+     "d": "07/03/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "59": {
+     "n": "A549 KO clone 4",
+     "p": "P11",
+     "d": "07/03/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "60": {
+     "n": "A549 KO clone 4",
+     "p": "P11",
+     "d": "07/03/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "61": {
+     "n": "A549 KO clone 4",
+     "p": "P11",
+     "d": "07/03/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "62": {
+     "n": "U2OS",
+     "p": "P10",
+     "d": "10/05/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "63": {
+     "n": "U2OS",
+     "p": "P10",
+     "d": "10/05/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "64": {
+     "n": "U2OS",
+     "p": "P10",
+     "d": "10/05/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "65": {
+     "n": "PC-3",
+     "p": "P17",
+     "d": "10/05/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "66": {
+     "n": "PC-3",
+     "p": "P17",
+     "d": "10/05/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "67": {
+     "n": "PC-3",
+     "p": "P17",
+     "d": "10/05/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "68": {
+     "n": "PC-3",
+     "p": "P17",
+     "d": "10/05/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "69": {
+     "n": "PC-3",
+     "p": "P17",
+     "d": "10/05/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "70": {
+     "n": "PC-3",
+     "p": "P17",
+     "d": "10/05/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "71": {
+     "n": "PC-3",
+     "p": "P17",
+     "d": "10/05/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "75": {
+     "n": "MCF7",
+     "p": "P11",
+     "d": "04/22/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "76": {
+     "n": "MCF7",
+     "p": "P11",
+     "d": "04/22/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "77": {
+     "n": "MCF7",
+     "p": "P11",
+     "d": "04/22/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "78": {
+     "n": "MCF7",
+     "p": "P11",
+     "d": "04/22/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "79": {
+     "n": "MCF7",
+     "p": "P11",
+     "d": "04/22/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "80": {
+     "n": "MCF7",
+     "p": "P11",
+     "d": "04/22/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "81": {
+     "n": "MCF7",
+     "p": "P11",
+     "d": "04/22/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    }
+   }
+  },
+  "R3-B1": {
+   "rack": 3,
+   "box": 1,
+   "slots": {
+    "1": {
+     "n": "PC-3",
+     "p": "P19",
+     "d": "08/15/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "2": {
+     "n": "PC-3",
+     "p": "P19",
+     "d": "08/15/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "3": {
+     "n": "PC-3",
+     "p": "P19",
+     "d": "08/15/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "4": {
+     "n": "PC-3",
+     "p": "P19",
+     "d": "08/15/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "5": {
+     "n": "PC-3",
+     "p": "P19",
+     "d": "08/15/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "6": {
+     "n": "PC-3",
+     "p": "P19",
+     "d": "08/15/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "7": {
+     "n": "A549",
+     "p": "P4",
+     "d": "01/10/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "8": {
+     "n": "A549",
+     "p": "P4",
+     "d": "01/10/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "9": {
+     "n": "A549",
+     "p": "P4",
+     "d": "01/10/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "10": {
+     "n": "A549",
+     "p": "P4",
+     "d": "01/10/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "11": {
+     "n": "A549",
+     "p": "P4",
+     "d": "01/10/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "12": {
+     "n": "A549",
+     "p": "P4",
+     "d": "01/10/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "13": {
+     "n": "A549 KO clone 4",
+     "p": "P4",
+     "d": "07/07/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "14": {
+     "n": "A549 KO clone 4",
+     "p": "P4",
+     "d": "07/07/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "15": {
+     "n": "A549 KO clone 4",
+     "p": "P4",
+     "d": "07/07/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "16": {
+     "n": "A549 KO clone 4",
+     "p": "P4",
+     "d": "07/07/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "17": {
+     "n": "A549 KO clone 4",
+     "p": "P4",
+     "d": "07/07/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "18": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/09/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "19": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/09/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "20": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/09/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "21": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/09/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "22": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/09/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "23": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/09/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "24": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/09/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "25": {
+     "n": "K562",
+     "p": "P6",
+     "d": "09/09/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "26": {
+     "n": "SW480",
+     "p": "P17",
+     "d": "12/12/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "27": {
+     "n": "SW480",
+     "p": "P17",
+     "d": "12/12/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "28": {
+     "n": "SW480",
+     "p": "P17",
+     "d": "12/12/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "29": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P17",
+     "d": "01/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "30": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P17",
+     "d": "01/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "31": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P17",
+     "d": "01/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "32": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P17",
+     "d": "01/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "33": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P17",
+     "d": "01/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "34": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P17",
+     "d": "01/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "35": {
+     "n": "HeLa Cas9",
+     "p": "P13",
+     "d": "12/05/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "36": {
+     "n": "HeLa Cas9",
+     "p": "P13",
+     "d": "12/05/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "37": {
+     "n": "HeLa Cas9",
+     "p": "P13",
+     "d": "12/05/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "38": {
+     "n": "HeLa Cas9",
+     "p": "P13",
+     "d": "12/05/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "39": {
+     "n": "HeLa Cas9",
+     "p": "P13",
+     "d": "12/05/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "40": {
+     "n": "MCF7",
+     "p": "P12",
+     "d": "06/01/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "41": {
+     "n": "MCF7",
+     "p": "P12",
+     "d": "06/01/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "42": {
+     "n": "MCF7",
+     "p": "P12",
+     "d": "06/01/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "43": {
+     "n": "MCF7",
+     "p": "P12",
+     "d": "06/01/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "44": {
+     "n": "MCF7",
+     "p": "P12",
+     "d": "06/01/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "45": {
+     "n": "MCF7",
+     "p": "P12",
+     "d": "06/01/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "46": {
+     "n": "MCF7",
+     "p": "P12",
+     "d": "06/01/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "47": {
+     "n": "MCF7",
+     "p": "P12",
+     "d": "06/01/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "48": {
+     "n": "MCF7",
+     "p": "P12",
+     "d": "06/01/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "49": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "12/01/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "50": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "12/01/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "51": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "12/01/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "52": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "12/01/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "53": {
+     "n": "HeLa Cas9",
+     "p": "P15",
+     "d": "10/03/2024",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "54": {
+     "n": "HeLa Cas9",
+     "p": "P15",
+     "d": "10/03/2024",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "55": {
+     "n": "HeLa Cas9",
+     "p": "P15",
+     "d": "10/03/2024",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "56": {
+     "n": "HeLa Cas9",
+     "p": "P15",
+     "d": "10/03/2024",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "57": {
+     "n": "HeLa Cas9",
+     "p": "P15",
+     "d": "10/03/2024",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "58": {
+     "n": "HeLa Cas9",
+     "p": "P15",
+     "d": "10/03/2024",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "59": {
+     "n": "HEK293T",
+     "p": "P6",
+     "d": "02/02/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "60": {
+     "n": "HEK293T",
+     "p": "P6",
+     "d": "02/02/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "61": {
+     "n": "HEK293T",
+     "p": "P6",
+     "d": "02/02/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "62": {
+     "n": "HEK293T",
+     "p": "P6",
+     "d": "02/02/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "63": {
+     "n": "HEK293T",
+     "p": "P6",
+     "d": "02/02/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "64": {
+     "n": "SW480",
+     "p": "P13",
+     "d": "09/11/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "65": {
+     "n": "SW480",
+     "p": "P13",
+     "d": "09/11/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "66": {
+     "n": "SW480",
+     "p": "P13",
+     "d": "09/11/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "67": {
+     "n": "SW480",
+     "p": "P13",
+     "d": "09/11/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "68": {
+     "n": "SW480",
+     "p": "P13",
+     "d": "09/11/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "69": {
+     "n": "SW480",
+     "p": "P13",
+     "d": "09/11/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "70": {
+     "n": "HEK293T GFP reporter",
+     "p": "P4",
+     "d": "11/13/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "71": {
+     "n": "HEK293T GFP reporter",
+     "p": "P4",
+     "d": "11/13/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "72": {
+     "n": "HEK293T GFP reporter",
+     "p": "P4",
+     "d": "11/13/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "77": {
+     "n": "K562",
+     "p": "P19",
+     "d": "05/16/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "78": {
+     "n": "K562",
+     "p": "P19",
+     "d": "05/16/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "79": {
+     "n": "K562",
+     "p": "P19",
+     "d": "05/16/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "80": {
+     "n": "K562",
+     "p": "P19",
+     "d": "05/16/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "81": {
+     "n": "K562",
+     "p": "P19",
+     "d": "05/16/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    }
+   }
+  },
+  "R3-B2": {
+   "rack": 3,
+   "box": 2,
+   "slots": {
+    "5": {
+     "n": "PC-3",
+     "p": "P14",
+     "d": "05/24/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "6": {
+     "n": "PC-3",
+     "p": "P14",
+     "d": "05/24/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "7": {
+     "n": "PC-3",
+     "p": "P14",
+     "d": "05/24/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "8": {
+     "n": "PC-3",
+     "p": "P14",
+     "d": "05/24/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "9": {
+     "n": "PC-3",
+     "p": "P14",
+     "d": "05/24/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "10": {
+     "n": "PC-3",
+     "p": "P5",
+     "d": "09/22/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "11": {
+     "n": "PC-3",
+     "p": "P5",
+     "d": "09/22/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "12": {
+     "n": "PC-3",
+     "p": "P5",
+     "d": "09/22/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "13": {
+     "n": "PC-3",
+     "p": "P5",
+     "d": "09/22/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "14": {
+     "n": "PC-3",
+     "p": "P5",
+     "d": "09/22/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "15": {
+     "n": "PC-3",
+     "p": "P5",
+     "d": "09/22/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "22": {
+     "n": "A549 KO clone 4",
+     "p": "P19",
+     "d": "08/14/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "23": {
+     "n": "A549 KO clone 4",
+     "p": "P19",
+     "d": "08/14/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "24": {
+     "n": "A549 KO clone 4",
+     "p": "P19",
+     "d": "08/14/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "25": {
+     "n": "A549 KO clone 4",
+     "p": "P19",
+     "d": "08/14/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "26": {
+     "n": "A549 KO clone 4",
+     "p": "P19",
+     "d": "08/14/2021",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "27": {
+     "n": "A549",
+     "p": "P12",
+     "d": "06/18/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "28": {
+     "n": "A549",
+     "p": "P12",
+     "d": "06/18/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "29": {
+     "n": "A549",
+     "p": "P12",
+     "d": "06/18/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "30": {
+     "n": "A549",
+     "p": "P12",
+     "d": "06/18/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "31": {
+     "n": "SW480",
+     "p": "P15",
+     "d": "10/07/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "32": {
+     "n": "SW480",
+     "p": "P15",
+     "d": "10/07/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "33": {
+     "n": "SW480",
+     "p": "P15",
+     "d": "10/07/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "34": {
+     "n": "SW480",
+     "p": "P15",
+     "d": "10/07/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "35": {
+     "n": "SW480",
+     "p": "P15",
+     "d": "10/07/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "36": {
+     "n": "SW480",
+     "p": "P15",
+     "d": "10/07/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "37": {
+     "n": "SW480",
+     "p": "P15",
+     "d": "10/07/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "38": {
+     "n": "SW480",
+     "p": "P15",
+     "d": "10/07/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "39": {
+     "n": "SW480",
+     "p": "P15",
+     "d": "10/07/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "40": {
+     "n": "U2OS",
+     "p": "P17",
+     "d": "05/11/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "41": {
+     "n": "U2OS",
+     "p": "P17",
+     "d": "05/11/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "42": {
+     "n": "U2OS",
+     "p": "P17",
+     "d": "05/11/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "43": {
+     "n": "U2OS",
+     "p": "P17",
+     "d": "05/11/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "44": {
+     "n": "U2OS",
+     "p": "P17",
+     "d": "05/11/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "45": {
+     "n": "U2OS",
+     "p": "P17",
+     "d": "05/11/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "46": {
+     "n": "THP-1",
+     "p": "P4",
+     "d": "11/17/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "47": {
+     "n": "THP-1",
+     "p": "P4",
+     "d": "11/17/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "48": {
+     "n": "THP-1",
+     "p": "P4",
+     "d": "11/17/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "49": {
+     "n": "THP-1",
+     "p": "P4",
+     "d": "11/17/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "50": {
+     "n": "HCT116",
+     "p": "P15",
+     "d": "07/21/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "51": {
+     "n": "HCT116",
+     "p": "P15",
+     "d": "07/21/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "52": {
+     "n": "HCT116",
+     "p": "P15",
+     "d": "07/21/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "53": {
+     "n": "HCT116",
+     "p": "P15",
+     "d": "07/21/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "54": {
+     "n": "HCT116",
+     "p": "P15",
+     "d": "07/21/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "55": {
+     "n": "HCT116",
+     "p": "P15",
+     "d": "07/21/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "56": {
+     "n": "HeLa",
+     "p": "P20",
+     "d": "01/14/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "57": {
+     "n": "HeLa",
+     "p": "P20",
+     "d": "01/14/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "58": {
+     "n": "HeLa",
+     "p": "P20",
+     "d": "01/14/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "59": {
+     "n": "HeLa",
+     "p": "P20",
+     "d": "01/14/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "60": {
+     "n": "A549",
+     "p": "P16",
+     "d": "09/28/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "61": {
+     "n": "A549",
+     "p": "P16",
+     "d": "09/28/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "62": {
+     "n": "A549",
+     "p": "P16",
+     "d": "09/28/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "63": {
+     "n": "A549",
+     "p": "P16",
+     "d": "09/28/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "64": {
+     "n": "A549",
+     "p": "P16",
+     "d": "09/28/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "65": {
+     "n": "A549",
+     "p": "P16",
+     "d": "09/28/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "66": {
+     "n": "MCF7",
+     "p": "P16",
+     "d": "03/05/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "67": {
+     "n": "MCF7",
+     "p": "P16",
+     "d": "03/05/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "68": {
+     "n": "MCF7",
+     "p": "P16",
+     "d": "03/05/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "69": {
+     "n": "MCF7",
+     "p": "P16",
+     "d": "03/05/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "73": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "12/10/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "74": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "12/10/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "75": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "12/10/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "76": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "12/10/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "77": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "12/10/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "78": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "12/10/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "79": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "12/10/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "80": {
+     "n": "HEK293T",
+     "p": "P10",
+     "d": "12/10/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "81": {
+     "n": "HEK293T GFP reporter",
+     "p": "P11",
+     "d": "02/04/2020",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    }
+   }
+  },
+  "R3-B3": {
+   "rack": 3,
+   "box": 3,
+   "slots": {
+    "1": {
+     "n": "HeLa",
+     "p": "P5",
+     "d": "01/10/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "2": {
+     "n": "HeLa",
+     "p": "P5",
+     "d": "01/10/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "3": {
+     "n": "HeLa",
+     "p": "P5",
+     "d": "01/10/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "4": {
+     "n": "U2OS",
+     "p": "P2",
+     "d": "05/08/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "5": {
+     "n": "U2OS",
+     "p": "P2",
+     "d": "05/08/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "6": {
+     "n": "U2OS",
+     "p": "P2",
+     "d": "05/08/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "7": {
+     "n": "A549 KO clone 4",
+     "p": "P17",
+     "d": "06/21/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "8": {
+     "n": "A549 KO clone 4",
+     "p": "P17",
+     "d": "06/21/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "9": {
+     "n": "A549 KO clone 4",
+     "p": "P17",
+     "d": "06/21/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "10": {
+     "n": "A549 KO clone 4",
+     "p": "P17",
+     "d": "06/21/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "11": {
+     "n": "A549 KO clone 4",
+     "p": "P17",
+     "d": "06/21/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "12": {
+     "n": "HCT116",
+     "p": "P3",
+     "d": "07/23/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "13": {
+     "n": "HCT116",
+     "p": "P3",
+     "d": "07/23/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "14": {
+     "n": "HCT116",
+     "p": "P3",
+     "d": "07/23/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "19": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "05/08/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "20": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "05/08/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "21": {
+     "n": "HEK293T GFP reporter",
+     "p": "P13",
+     "d": "05/08/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "22": {
+     "n": "HEK293T",
+     "p": "P13",
+     "d": "06/23/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "23": {
+     "n": "HEK293T",
+     "p": "P13",
+     "d": "06/23/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "24": {
+     "n": "HEK293T",
+     "p": "P13",
+     "d": "06/23/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "25": {
+     "n": "HEK293T",
+     "p": "P13",
+     "d": "06/23/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "26": {
+     "n": "HEK293T",
+     "p": "P13",
+     "d": "06/23/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "27": {
+     "n": "HEK293T",
+     "p": "P13",
+     "d": "06/23/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "28": {
+     "n": "HEK293T",
+     "p": "P13",
+     "d": "06/23/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "29": {
+     "n": "HEK293T",
+     "p": "P13",
+     "d": "06/23/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "30": {
+     "n": "U2OS",
+     "p": "P8",
+     "d": "05/24/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "31": {
+     "n": "U2OS",
+     "p": "P8",
+     "d": "05/24/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "32": {
+     "n": "U2OS",
+     "p": "P8",
+     "d": "05/24/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "33": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/08/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "34": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/08/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "35": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/08/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "36": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/08/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "37": {
+     "n": "U2OS",
+     "p": "P9",
+     "d": "04/08/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "38": {
+     "n": "PC-3",
+     "p": "P9",
+     "d": "10/16/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "39": {
+     "n": "PC-3",
+     "p": "P9",
+     "d": "10/16/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "40": {
+     "n": "PC-3",
+     "p": "P9",
+     "d": "10/16/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "41": {
+     "n": "HEK293T",
+     "p": "P8",
+     "d": "03/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "42": {
+     "n": "HEK293T",
+     "p": "P8",
+     "d": "03/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "43": {
+     "n": "HEK293T",
+     "p": "P8",
+     "d": "03/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "44": {
+     "n": "HEK293T",
+     "p": "P8",
+     "d": "03/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "45": {
+     "n": "HEK293T",
+     "p": "P8",
+     "d": "03/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "46": {
+     "n": "HEK293T",
+     "p": "P8",
+     "d": "03/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "47": {
+     "n": "HEK293T",
+     "p": "P8",
+     "d": "03/13/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "50": {
+     "n": "HEK293T",
+     "p": "P5",
+     "d": "07/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "51": {
+     "n": "HEK293T",
+     "p": "P5",
+     "d": "07/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "52": {
+     "n": "HEK293T",
+     "p": "P5",
+     "d": "07/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "53": {
+     "n": "HEK293T",
+     "p": "P5",
+     "d": "07/15/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "54": {
+     "n": "Jurkat",
+     "p": "P3",
+     "d": "04/06/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "55": {
+     "n": "Jurkat",
+     "p": "P3",
+     "d": "04/06/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "56": {
+     "n": "Jurkat",
+     "p": "P3",
+     "d": "04/06/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "57": {
+     "n": "Jurkat",
+     "p": "P3",
+     "d": "04/06/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "58": {
+     "n": "Jurkat",
+     "p": "P3",
+     "d": "04/06/2026",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "59": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "06/11/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "60": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "06/11/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "61": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "06/11/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "62": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "06/11/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "63": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "06/11/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "64": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "06/11/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "65": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "06/11/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "66": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "06/11/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "67": {
+     "n": "HeLa Cas9",
+     "p": "P7",
+     "d": "06/11/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "69": {
+     "n": "THP-1",
+     "p": "P14",
+     "d": "02/18/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "70": {
+     "n": "THP-1",
+     "p": "P14",
+     "d": "02/18/2022",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "72": {
+     "n": "K562",
+     "p": "P8",
+     "d": "02/02/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "73": {
+     "n": "K562",
+     "p": "P8",
+     "d": "02/02/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "74": {
+     "n": "K562",
+     "p": "P8",
+     "d": "02/02/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    }
+   }
+  },
+  "R3-B4": {
+   "rack": 3,
+   "box": 4,
+   "slots": {
+    "1": {
+     "n": "A549 KO clone 4",
+     "p": "P2",
+     "d": "06/12/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "2": {
+     "n": "A549 KO clone 4",
+     "p": "P2",
+     "d": "06/12/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "3": {
+     "n": "A549 KO clone 4",
+     "p": "P2",
+     "d": "06/12/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "4": {
+     "n": "A549 KO clone 4",
+     "p": "P2",
+     "d": "06/12/2026",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "5": {
+     "n": "HCT116",
+     "p": "P3",
+     "d": "11/25/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "6": {
+     "n": "HCT116",
+     "p": "P3",
+     "d": "11/25/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "7": {
+     "n": "HCT116",
+     "p": "P3",
+     "d": "11/25/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "8": {
+     "n": "HCT116",
+     "p": "P3",
+     "d": "11/25/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "9": {
+     "n": "HCT116",
+     "p": "P3",
+     "d": "11/25/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "10": {
+     "n": "HCT116",
+     "p": "P3",
+     "d": "11/25/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "11": {
+     "n": "HCT116",
+     "p": "P3",
+     "d": "11/25/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "12": {
+     "n": "HCT116",
+     "p": "P3",
+     "d": "11/25/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "13": {
+     "n": "HCT116",
+     "p": "P3",
+     "d": "11/25/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "14": {
+     "n": "A549 KO clone 4",
+     "p": "P4",
+     "d": "01/09/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "15": {
+     "n": "A549 KO clone 4",
+     "p": "P4",
+     "d": "01/09/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "16": {
+     "n": "A549 KO clone 4",
+     "p": "P4",
+     "d": "01/09/2022",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "17": {
+     "n": "HepG2",
+     "p": "P10",
+     "d": "05/11/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "18": {
+     "n": "HepG2",
+     "p": "P10",
+     "d": "05/11/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "19": {
+     "n": "HepG2",
+     "p": "P10",
+     "d": "05/11/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "20": {
+     "n": "HepG2",
+     "p": "P10",
+     "d": "05/11/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "21": {
+     "n": "HepG2",
+     "p": "P10",
+     "d": "05/11/2019",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "22": {
+     "n": "HepG2",
+     "p": "P2",
+     "d": "05/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "23": {
+     "n": "HepG2",
+     "p": "P2",
+     "d": "05/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "24": {
+     "n": "HepG2",
+     "p": "P2",
+     "d": "05/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "25": {
+     "n": "HepG2",
+     "p": "P2",
+     "d": "05/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "26": {
+     "n": "HepG2",
+     "p": "P2",
+     "d": "05/01/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "27": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "12/15/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "28": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "12/15/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "29": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "12/15/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "30": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "12/15/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "31": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "12/15/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "32": {
+     "n": "MCF7",
+     "p": "P10",
+     "d": "12/15/2025",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "33": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P11",
+     "d": "08/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "34": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P11",
+     "d": "08/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "35": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P11",
+     "d": "08/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "36": {
+     "n": "U2OS H2B-mCherry",
+     "p": "P11",
+     "d": "08/06/2019",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "37": {
+     "n": "K562",
+     "p": "P16",
+     "d": "04/11/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "38": {
+     "n": "K562",
+     "p": "P16",
+     "d": "04/11/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "39": {
+     "n": "K562",
+     "p": "P16",
+     "d": "04/11/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "40": {
+     "n": "K562",
+     "p": "P16",
+     "d": "04/11/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "41": {
+     "n": "K562",
+     "p": "P16",
+     "d": "04/11/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "42": {
+     "n": "K562",
+     "p": "P16",
+     "d": "04/11/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "43": {
+     "n": "K562",
+     "p": "P16",
+     "d": "04/11/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "44": {
+     "n": "A549",
+     "p": "P9",
+     "d": "04/13/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "45": {
+     "n": "A549",
+     "p": "P9",
+     "d": "04/13/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "46": {
+     "n": "A549",
+     "p": "P9",
+     "d": "04/13/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "47": {
+     "n": "A549",
+     "p": "P9",
+     "d": "04/13/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "48": {
+     "n": "A549",
+     "p": "P9",
+     "d": "04/13/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "49": {
+     "n": "A549",
+     "p": "P9",
+     "d": "04/13/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "50": {
+     "n": "A549",
+     "p": "P9",
+     "d": "04/13/2021",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "51": {
+     "n": "HEK293T",
+     "p": "P7",
+     "d": "09/18/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "52": {
+     "n": "HEK293T",
+     "p": "P7",
+     "d": "09/18/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "53": {
+     "n": "HEK293T",
+     "p": "P7",
+     "d": "09/18/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "54": {
+     "n": "HEK293T",
+     "p": "P7",
+     "d": "09/18/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "55": {
+     "n": "HEK293T",
+     "p": "P7",
+     "d": "09/18/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "56": {
+     "n": "HEK293T",
+     "p": "P7",
+     "d": "09/18/2024",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "57": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "05/20/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "58": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "05/20/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "59": {
+     "n": "MCF7",
+     "p": "P8",
+     "d": "05/20/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "64": {
+     "n": "A549 KO clone 4",
+     "p": "P16",
+     "d": "04/05/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "65": {
+     "n": "A549 KO clone 4",
+     "p": "P16",
+     "d": "04/05/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "66": {
+     "n": "A549 KO clone 4",
+     "p": "P16",
+     "d": "04/05/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "67": {
+     "n": "A549 KO clone 4",
+     "p": "P16",
+     "d": "04/05/2025",
+     "f": "XX",
+     "m": "Example vial (Sample lab)"
+    },
+    "68": {
+     "n": "HCT116",
+     "p": "P11",
+     "d": "09/28/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "69": {
+     "n": "HCT116",
+     "p": "P11",
+     "d": "09/28/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "70": {
+     "n": "HCT116",
+     "p": "P11",
+     "d": "09/28/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "71": {
+     "n": "HCT116",
+     "p": "P11",
+     "d": "09/28/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "72": {
+     "n": "HCT116",
+     "p": "P11",
+     "d": "09/28/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "73": {
+     "n": "HCT116",
+     "p": "P11",
+     "d": "09/28/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "74": {
+     "n": "HCT116",
+     "p": "P11",
+     "d": "09/28/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "75": {
+     "n": "HCT116",
+     "p": "P11",
+     "d": "09/28/2020",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "76": {
+     "n": "SW480",
+     "p": "P8",
+     "d": "05/24/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "77": {
+     "n": "SW480",
+     "p": "P8",
+     "d": "05/24/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "78": {
+     "n": "SW480",
+     "p": "P8",
+     "d": "05/24/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "79": {
+     "n": "SW480",
+     "p": "P8",
+     "d": "05/24/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "80": {
+     "n": "SW480",
+     "p": "P8",
+     "d": "05/24/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    },
+    "81": {
+     "n": "Jurkat",
+     "p": "P20",
+     "d": "04/05/2023",
+     "f": "XX",
+     "m": "Example vial (ATCC)"
+    }
+   }
+  }
+ }
+}
