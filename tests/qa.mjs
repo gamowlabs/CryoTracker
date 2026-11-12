@@ -31,6 +31,24 @@ ok('add x3 fills next empty positions', st.filter(x=>x==='QA line').length===3, 
 const p71 = await p.$('.cell[data-pos="71"]'); await p71.click(); await p.click('#doEdit'); await p.fill('#f_p','P9'); await p.fill('#f_m',''); await p.click('#vf button[type=submit]'); await p.waitForTimeout(100);
 st = await p.evaluate(()=>window.__store.boxes['R3-B3'].slots['71']);
 ok('edit saves', st.p==='P9');
+// duplicate: within this box and into another box
+await p.click('.cell[data-pos="1"]'); await p.waitForTimeout(50);
+const srcName = (await p.textContent('.cell[data-pos="1"] .nm')).trim();
+await p.click('#doDup');
+const empt = await p.$$eval('.cell.empty', els=>els.slice(0,2).map(e=>+e.dataset.pos));
+for (const k of empt) await p.click(`.cell[data-pos="${k}"]`);
+await p.click('.cell[data-pos="2"]'); // filled: must not be selected
+await p.click('.boxbtn[data-box="R1-B1"]'); await p.waitForTimeout(50);
+ok('duplicate: mode survives switching box', !!(await p.$('#dupForm')));
+await p.fill('#dupN','2'); await p.click('#dupFill button[type=submit]');
+ok('duplicate: 4 copies selected across 2 boxes', /4\s*copies selected/.test(await p.textContent('#detail')), (await p.textContent('#detail')).slice(0,160));
+await p.click('#dupForm button[type=submit]'); await p.waitForTimeout(150);
+const dr = await p.evaluate(([e,src])=>{ const a=window.__store.boxes['R3-B3'].slots;
+  return { inA:e.filter(k=>a[k]&&a[k].n===src).length,
+           logs:Object.values(window.__store.log).filter(l=>l.act==='add'&&/^Copy of Rack 3 · Box 3 · position 1$/.test(l.note)).length }; }, [empt, srcName]);
+ok('duplicate: copies written and logged', dr.inA===2 && dr.logs===4, JSON.stringify(dr));
+ok('duplicate: mode ends after confirm', !(await p.$('#dupForm')));
+await p.click('.boxbtn[data-box="R3-B3"]'); await p.waitForTimeout(50);
 // multi remove
 await p.click('#multiStart'); for (const k of [2,3]) await p.click(`.cell[data-pos="${k}"]`);
 await p.click('#multiForm button[type=submit]'); await p.waitForTimeout(100);

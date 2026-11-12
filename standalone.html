@@ -97,6 +97,9 @@ header.top{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-
 .cell.sel{border-color:var(--ink);box-shadow:0 0 0 2px var(--ink)}
 .cell.dim{opacity:.28}
 .cell.multi{box-shadow:inset 0 0 0 3px var(--danger)}
+.cell.src{outline:2px dashed var(--accent);outline-offset:1px}
+.cell.empty.dupt{background:var(--accentSoft);color:var(--accent);box-shadow:inset 0 0 0 2px var(--accent)}
+.cell.empty.dupt .num::after{content:" +"}
 .cell:hover{border-color:var(--accent)}
 .legend{margin-top:10px;font-size:12.5px;color:var(--muted)}
 
@@ -167,7 +170,7 @@ const $ = (s, el = document) => el.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const FIELDS = [["n","Name"],["p","Passage"],["d","Freeze date"],["f","Obtained from"],["c","Cells / vial"],["v","Vials"],["l","Vial label"],["m","Comments"]];
 
-const S = { freezer:"LN2 Freezer", db:null, user:null, me:null, canWrite:true, boxes:new Map(), loaded:false, log:[], sel:null, pos:null,
+const S = { freezer:"LN2 Freezer", dup:null, db:null, user:null, me:null, canWrite:true, boxes:new Map(), loaded:false, log:[], sel:null, pos:null,
   q:"", view:"box", mode:null, multi:new Set(), names:{} };
 
 function hue(name){ let h=0; const s=(name||"").replace(/\s*\(copy\)\s*$/i,"").toLowerCase(); for (const ch of s) h=(h*31+ch.charCodeAt(0))>>>0; return h%360; }
@@ -213,13 +216,16 @@ function renderMain(){
   const id=S.sel, f=filled(id);
   let g="";
   for (let p=1;p<=81;p++){
-    const v=slot(id,p), sel=p===S.pos?" sel":"", multi=S.multi.has(p)?" multi":"";
+    const v=slot(id,p), sel=p===S.pos&&S.mode!=="dup"?" sel":"", multi=S.multi.has(p)?" multi":"";
+    const dup=S.mode==="dup", dupt=dup&&S.dup.targets.has(id+"|"+p)?" dupt":"", src=dup&&S.dup.src.box===id&&S.dup.src.pos===p?" src":"";
     if (v){
       const meta=[v.p,v.d].filter(Boolean).join(" · ");
-      g+=`<button class="cell${sel}${multi}" style="--h:${hue(v.n)}" data-pos="${p}" title="${esc(p+": "+v.n)}"><span class="num">${p}</span><span class="nm">${esc(v.n)}</span><span class="meta">${esc(meta)}</span></button>`;
-    } else g+=`<button class="cell empty${sel}" data-pos="${p}" aria-label="Position ${p}, empty"><span class="num">${p}</span></button>`;
+      g+=`<button class="cell${sel}${multi}${src}" style="--h:${hue(v.n)}" data-pos="${p}" title="${esc(p+": "+v.n)}"><span class="num">${p}</span><span class="nm">${esc(v.n)}</span><span class="meta">${esc(meta)}</span></button>`;
+    } else g+=`<button class="cell empty${sel}${dupt}" data-pos="${p}" aria-label="Position ${p}, empty${dupt?", selected for a copy":""}"><span class="num">${p}</span></button>`;
   }
-  const multiBar = S.mode==="multi" ? `<button class="btn" id="multiCancel">Cancel</button>` : (S.canWrite&&f?`<button class="btn ghost" id="multiStart">Remove several</button>`:"");
+  const multiBar = S.mode==="multi" ? `<button class="btn" id="multiCancel">Cancel</button>`
+    : S.mode==="dup" ? `<button class="btn" id="dupCancel">Stop duplicating</button>`
+    : (S.canWrite&&f?`<button class="btn ghost" id="multiStart">Remove several</button>`:"");
   el.innerHTML=`<div class="boxhead"><div><div class="eyebrow">${esc(S.freezer)}</div><h2>${esc(label(id))}</h2></div>
     <div class="row" style="align-items:center"><div class="stats"><span><b>${f}</b> filled</span><span><b>${81-f}</b> empty</span></div>${multiBar}</div></div>
     <div class="gridscroll"><div class="grid" role="grid" aria-label="${esc(label(id))} positions 1 to 81">${g}</div></div>
@@ -283,8 +289,26 @@ function readForm(){
   const o={}; for (const [k] of FIELDS){ const el=$("#f_"+k); if(!el) continue; let val=el.value.trim(); if(k==="v") val=Math.max(1,parseInt(val||"1",10)||1); o[k]=val; }
   return o;
 }
+function dupGroups(){
+  const g=new Map();
+  for (const k of S.dup.targets){ const [b,p]=k.split("|"); if(!g.has(b)) g.set(b,[]); g.get(b).push(+p); }
+  for (const ps of g.values()) ps.sort((a,b)=>a-b);
+  return [...g].sort((a,b)=>{ const x=S.boxes.get(a[0]), y=S.boxes.get(b[0]); return (x?.rack-y?.rack)||(x?.box-y?.box)||0; });
+}
 function renderDetail(){
   const el=$("#detail");
+  if (S.mode==="dup"){
+    const d=S.dup, n=d.targets.size, groups=dupGroups();
+    const list=groups.map(([b,ps])=>`<div>${esc(label(b))}: <span class="mono">${ps.join(", ")}</span></div>`).join("");
+    const here=S.sel&&S.view==="box"&&!S.q ? esc(label(S.sel)) : "";
+    el.innerHTML=`<div><div class="eyebrow">Duplicating from ${esc(label(d.src.box))} · Position <span class="mono">${d.src.pos}</span></div><h3>${esc(d.src.item.n)}</h3></div>
+      <p class="note">Tap empty positions to place copies. You can open other boxes and keep tapping. Each copy gets the same details as the original.</p>
+      ${here?`<form class="f" id="dupFill"><div class="two" style="align-items:end"><label>Quick select<input id="dupN" type="number" min="1" max="81" value="1" aria-label="Number of empty positions to select"></label>
+        <button class="btn" type="submit">Next empty in this box</button></div></form>`:""}
+      <div>${n?`<p style="margin:0 0 4px"><b>${n}</b> ${n===1?"copy":"copies"} selected</p><div class="note">${list}</div>`:`<p class="note" style="margin:0">No positions selected yet.</p>`}</div>
+      <form class="f" id="dupForm"><div class="row"><button class="btn primary" type="submit" ${n?"":"disabled"}>Create ${n||""} ${n===1?"copy":"copies"}</button><button class="btn" type="button" id="dupCancel">Cancel</button></div></form>`;
+    return;
+  }
   if (S.mode==="multi"){
     const ps=[...S.multi].sort((a,b)=>a-b);
     el.innerHTML=`<div><div class="eyebrow">${esc(label(S.sel))}</div><h3>Remove several vials</h3></div>
@@ -308,7 +332,7 @@ function renderDetail(){
   }
   if (v){
     el.innerHTML=`<div><div class="eyebrow">${where}</div><h3>${esc(v.n)}</h3></div>${kv(v)}
-      ${S.canWrite?`<div class="row"><button class="btn danger" id="doRemove">Remove vial</button><button class="btn" id="doEdit">Edit</button></div>`:""}`;
+      ${S.canWrite?`<div class="row"><button class="btn danger" id="doRemove">Remove vial</button><button class="btn" id="doEdit">Edit</button><button class="btn" id="doDup">Duplicate</button></div>`:""}`;
   } else {
     el.innerHTML=`<div><div class="eyebrow">${where}</div><h3>Empty position</h3></div>
       <p class="note">Nothing is stored here.</p>${S.canWrite?`<div class="row"><button class="btn primary" id="doAdd">Add vial here</button></div>`:""}`;
@@ -341,10 +365,16 @@ async function removeVials(id, ps, reason){
 /* ---------- events ---------- */
 document.addEventListener("click", async e => {
   const t=e.target.closest("button"); if(!t) return;
-  if (t.dataset.box && !t.classList.contains("res")){ S.sel=t.dataset.box; S.pos=null; S.mode=null; S.multi.clear(); S.view="box"; setHash(); $("#logBtn").setAttribute("aria-pressed","false"); renderAll(); return; }
-  if (t.classList.contains("res")){ S.sel=t.dataset.box; S.pos=+t.dataset.pos; S.q=""; $("#q").value=""; S.view="box"; S.mode=null; setHash(); renderAll(); return; }
+  const keepDup = S.mode==="dup" ? "dup" : null;
+  if (t.dataset.box && !t.classList.contains("res")){ S.sel=t.dataset.box; S.pos=null; S.mode=keepDup; S.multi.clear(); S.view="box"; setHash(); $("#logBtn").setAttribute("aria-pressed","false"); renderAll(); return; }
+  if (t.classList.contains("res")){ S.sel=t.dataset.box; S.pos=+t.dataset.pos; S.q=""; $("#q").value=""; S.view="box"; S.mode=keepDup; setHash(); renderAll(); return; }
   if (t.dataset.pos){
     const p=+t.dataset.pos;
+    if (S.mode==="dup"){
+      const k=S.sel+"|"+p;
+      if (slot(S.sel,p)){ if (!(S.dup.src.box===S.sel&&S.dup.src.pos===p)) toast(`Position ${p} already has a vial. Pick an empty one.`); return; }
+      S.dup.targets.has(k)?S.dup.targets.delete(k):S.dup.targets.add(k); renderMain(); renderDetail(); return;
+    }
     if (S.mode==="multi"){ if(slot(S.sel,p)){ S.multi.has(p)?S.multi.delete(p):S.multi.add(p); renderMain(); renderDetail(); } return; }
     S.pos=p; S.mode=null; renderMain(); renderDetail(); if (matchMedia("(max-width:1180px)").matches) $("#detail").scrollIntoView({behavior:"smooth",block:"nearest"}); return;
   }
@@ -352,6 +382,8 @@ document.addEventListener("click", async e => {
     case "doRemove": S.mode="remove"; renderDetail(); $("#rmReason")?.focus(); break;
     case "doEdit": S.mode="edit"; renderDetail(); break;
     case "doAdd": S.mode="add"; renderDetail(); $("#f_n")?.focus(); break;
+    case "doDup": { const v=slot(S.sel,S.pos); if(!v) break; S.mode="dup"; S.dup={src:{box:S.sel,pos:S.pos,item:JSON.parse(JSON.stringify(v))},targets:new Set()}; renderMain(); renderDetail(); break; }
+    case "dupCancel": S.mode=null; S.dup=null; renderMain(); renderDetail(); break;
     case "cancelForm": S.mode=null; renderDetail(); break;
     case "multiStart": S.mode="multi"; S.multi.clear(); S.pos=null; renderMain(); renderDetail(); break;
     case "multiCancel": S.mode=null; S.multi.clear(); renderMain(); renderDetail(); break;
@@ -371,6 +403,37 @@ document.addEventListener("click", async e => {
 document.addEventListener("submit", async e => {
   e.preventDefault();
   const f=e.target, id=S.sel;
+  if (f.id==="dupFill"){
+    const want=Math.max(1,parseInt($("#dupN").value||"1",10)||1), d=S.dup;
+    const mine=[...d.targets].filter(k=>k.startsWith(id+"|")).map(k=>+k.split("|")[1]);
+    let start = mine.length ? Math.max(...mine)+1 : (d.src.box===id ? d.src.pos+1 : 1);
+    const picked=[];
+    for (let pass=0; pass<2 && picked.length<want; pass++){
+      for (let p=(pass?1:start); p<=81 && picked.length<want; p++) if (!slot(id,p) && !d.targets.has(id+"|"+p)) picked.push(p);
+    }
+    picked.forEach(p=>d.targets.add(id+"|"+p));
+    if (picked.length<want) toast(picked.length?`Only ${picked.length} more empty position${picked.length===1?"":"s"} in this box.`:"No empty positions left in this box.");
+    renderMain(); renderDetail(); return;
+  }
+  if (f.id==="dupForm"){
+    const d=S.dup, groups=dupGroups();
+    const taken=groups.flatMap(([b,ps])=>ps.filter(p=>slot(b,p)).map(p=>[b,p]));
+    if (taken.length){ taken.forEach(([b,p])=>d.targets.delete(b+"|"+p)); renderMain(); renderDetail();
+      return toast(`Someone just filled ${taken.map(([b,p])=>`${label(b)} · ${p}`).join(", ")}. Those were unselected; check and confirm again.`); }
+    const btn=f.querySelector("button[type=submit]"); if (btn) btn.disabled=true;
+    const note=`Copy of ${label(d.src.box)} · position ${d.src.pos}`;
+    let made=0;
+    for (const [b,ps] of groups){
+      const patch={}; for (const p of ps) patch[p]=d.src.item;
+      const ok=await write(()=>S.db.doc("boxes/"+b).update({slots:patch}));
+      if (!ok) break;
+      S.writeTested=true; made+=ps.length;
+      for (const p of ps) await write(()=>logEntry("add",b,p,d.src.item,note));
+    }
+    if (made){ toast(`Created ${made} ${made===1?"copy":"copies"} of ${d.src.item.n}`); S.mode=null; S.dup=null; renderMain(); renderDetail(); }
+    else if (btn) btn.disabled=false;
+    return;
+  }
   if (f.id==="rmForm"){ const ok=await removeVials(id,[S.pos],$("#rmReason").value.trim()); if(ok){ S.mode=null; renderDetail(); } }
   if (f.id==="multiForm"){ const ps=[...S.multi].sort((a,b)=>a-b); const ok=await removeVials(id,ps,$("#mReason").value.trim()); if(ok){ S.mode=null; S.multi.clear(); renderMain(); renderDetail(); } }
   if (f.id==="vf"){
