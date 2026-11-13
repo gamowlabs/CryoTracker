@@ -1,6 +1,7 @@
 {
   "name": "cryotracker",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "test": "python3 tests/build_harness.py && node tests/qa.mjs"

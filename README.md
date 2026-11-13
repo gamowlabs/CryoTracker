@@ -85,3 +85,8 @@ npm install
 npx playwright install chromium
 npm test
 ```
+
+## License
+
+[MIT](LICENSE). Free to use, copy and change, with no warranty. CryoTracker isn't validated for
+regulated (GLP/GMP) work.
