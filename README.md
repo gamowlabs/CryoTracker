@@ -1,6 +1,6 @@
 # CryoTracker
 
-A shared web page for tracking an LN2 freezer. It shows each box as a 9×9 map
+A shared web page for tracking and managing inventory in an LN2 freezer. It shows each box as a 9×9 map
 (positions 1–81, left to right, top to bottom). Lab members use it to remove, add and edit
 vials, search the whole freezer, review a history of changes, and export a CSV.
 
